@@ -1,13 +1,12 @@
 /* Root CSS Variables */
-
 :root {
     --color-white: #FFFFFF; /* Invest */
     --color-light: #F0EFF5; /* Background */
     --color-gray-light: #86848C; /* Font Investment, Income, Expenses, Cashback, Turnover */
     --color-gray-dark: #56555E;  /*  */
-    --color-dark: #27282F; /* Card and Font Titles */
+    --color-dark: #27282F; /* Font Card and Titles */
 
-    /* Update Now, Bar Dashboard, Recent Transactions - Card */
+    /* Btn Update Now, Bar Dashboard, Recent Transactions - Card Visa*/
     --color-primary: rgb(71, 7, 234);
     --color-success: rgb(34, 202, 75);
     --color-danger: rgb(255, 67, 54);
@@ -28,4 +27,122 @@
     --card-border-radius: 1.6rem; /* All Cards */
     --border-radius-1: 1rem; /* Search, Light - Dark Mode, Overview */
     --border-radius-2: 6px; /* Search, Light - Dark Mode, Overview */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 12px;
+}
+
+
+body {
+    background: var(--color-light);
+    font-family: poppins, sans-serif;
+    min-height: 100vh;
+    color: var(--color-dark);
+}
+
+
+img {
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 2.2rem;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+h3 {
+    font-size: 1.2rem;
+}
+
+
+h4 {
+    font-size: 1rem;
+}
+
+
+h5 {
+    font-size: 0.86rem;
+    font-weight: 500;
+}
+
+
+h6 {
+    font-size: 7.6rem;
+}
+
+
+p {
+    font-size: 0.86rem;
+    color: var(--color-gray-dark);
+}
+
+
+small {
+    font-weight: 300;
+    font-size: 0.77rem;
+}
+
+
+.text-muted {
+    color: var(--color-gray-light);
+}
+
+/* Btn Update Now, Bar Dashboard, Recent Transactions - Card Visa*/
+.primary {
+    color: var(--color-primary);
+}
+
+
+.danger {
+    color: var(--color-danger);
+}
+
+
+.success {
+    color: var(--color-success);
+}
+
+
+.purple {
+    color: var(--color-purple);
+}
+
+
+.bg-primary {
+    background: var(--color-primary);
+}
+
+
+.bg-danger {
+    background: var(--color-danger);
+}
+
+
+.bg-success {
+    background: var(--color-success);
+}
+
+
+.bg-purple {
+    background: var(--color-purple);
 }

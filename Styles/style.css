@@ -175,3 +175,30 @@ nav {
 }
 
 
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+nav img.logo {
+    width: 7rem;
+}
+
+
+nav .search-bar {
+    background: var(--color-light);
+    padding: var(--padding-2) var(--card-padding);
+    width: 32vw;
+    border-radius: var(--border-radius-2);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-gray-light);
+    position: absolute;
+
+

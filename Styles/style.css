@@ -1,10 +1,15 @@
 /* Root CSS Variables */
 :root {
-    --color-white: #FFFFFF; /* Invest */
-    --color-light: #F0EFF5; /* Background */
-    --color-gray-light: #86848C; /* Font Investment, Income, Expenses, Cashback, Turnover */
-    --color-gray-dark: #56555E;  /*  */
-    --color-dark: #27282F; /* Font Card and Titles */
+    --color-white: #FFFFFF;
+    /* Invest */
+    --color-light: #F0EFF5;
+    /* Background */
+    --color-gray-light: #86848C;
+    /* Font Investment, Income, Expenses, Cashback, Turnover */
+    --color-gray-dark: #56555E;
+    /*  */
+    --color-dark: #27282F;
+    /* Font Card and Titles */
 
     /* Btn Update Now, Bar Dashboard, Recent Transactions - Card Visa*/
     --color-primary: rgb(71, 7, 234);
@@ -14,7 +19,7 @@
     --color-purple: rgb(160, 99, 245);
 
     /* Recent Transactions - Service*/
-    --color-primary-light: rgba(71, 7, 234, 0.2); 
+    --color-primary-light: rgba(71, 7, 234, 0.2);
     --color-success-light: rgba(34, 202, 75, 0.2);
     --color-danger-light: rgba(255, 67, 54, 0.2);
     --color-purple-light: rgba(160, 99, 245, 0.2);
@@ -24,9 +29,12 @@
     --padding-1: 1rem;
     --padding-2: 8px;
 
-    --card-border-radius: 1.6rem; /* All Cards */
-    --border-radius-1: 1rem; /* Search, Light - Dark Mode, Overview */
-    --border-radius-2: 6px; /* Search, Light - Dark Mode, Overview */
+    --card-border-radius: 1.6rem;
+    /* All Cards */
+    --border-radius-1: 1rem;
+    /* Search, Light - Dark Mode, Overview */
+    --border-radius-2: 6px;
+    /* Search, Light - Dark Mode, Overview */
 }
 
 
@@ -127,22 +135,41 @@ small {
     color: var(--color-purple);
 }
 
-
+/* Recent Transactions - Service*/
 .bg-primary {
     background: var(--color-primary);
+    box-shadow: 0 0.8rem 0.8rem var(--color-primary-light);
 }
 
 
 .bg-danger {
     background: var(--color-danger);
+    box-shadow: 0 0.8rem 0.8rem var(--color-danger-light);
 }
 
 
 .bg-success {
     background: var(--color-success);
+    box-shadow: 0 0.8rem 0.8rem var(--color-success-light);
 }
 
 
 .bg-purple {
     background: var(--color-purple);
+    box-shadow: 0 0.8rem 0.8rem var(--color-purple-light);
+}
+
+
+.bg-dark {
+    background: #27282F;
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+
+/* ==================== NAV BAR ==================== */
+
+nav {
+    width: 100%;
+    background: var(--color-white);
+    padding: 1rem 0;
 }

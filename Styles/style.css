@@ -200,5 +200,14 @@ nav .search-bar {
     gap: 1rem;
     color: var(--color-gray-light);
     position: absolute;
+    left: 15%;
+}
+
+
+nav .search-bar input[type="search"] {
+    color: var(--color-dark);
+    background: transparent;
+    width: 100%;
+}
 
 

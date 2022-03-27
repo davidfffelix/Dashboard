@@ -265,3 +265,8 @@ nav .profile-area .profile-photo {
     border-radius: 50%;
     overflow: hidden;
 }
+
+
+nav .profile-area button {
+    display: none;
+}
